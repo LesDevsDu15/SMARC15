@@ -6,7 +6,7 @@
 </p>
 -->
 
-Saint-Mamet Auto Radio Club — official website by **goodup302** and **benben15**.
+Saint-Mamet Auto Radio Commandée — official website by **goodup302** and **benben15**.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d94fe0a3-1a0d-4054-8173-56fdef51f109" width="50%" />
@@ -18,7 +18,7 @@ Saint-Mamet Auto Radio Club — official website by **goodup302** and **benben15
 ## Actors
 - **Julien Fernandes / Goodup302 (Developer):** [GitHub](https://github.com/Goodup302)  
 - **Serre Benoît / BENBEN15 (Developer):** [GitHub](https://github.com/BENBEN15)  
-- **Saint-Mamet Auto Radio Club (SMARC) – Product Owner**  
+- **Saint-Mamet Auto Radio Commandée (SMARC) – Product Owner**  
 
 ## Objectives
 Develop and deploy a communication website for the SMARC RC club.  
