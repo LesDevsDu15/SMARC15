@@ -1,0 +1,63 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 3,
+    "settings": {
+        "appearanceTools": true,
+        "layout": {
+            "contentSize": "720px",
+            "wideSize": "1200px"
+        },
+        "color": {
+            "defaultPalette": false,
+            "palette": [
+                { "slug": "base", "name": "Base", "color": "#ffffff" },
+                { "slug": "contrast", "name": "Contrast", "color": "#111111" },
+                { "slug": "accent", "name": "Accent", "color": "#f62c97" },
+                { "slug": "muted", "name": "Muted", "color": "#f4f4f4" }
+            ]
+        },
+        "typography": {
+            "fluid": true,
+            "fontFamilies": [
+                {
+                    "name": "System",
+                    "slug": "system",
+                    "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif"
+                }
+            ]
+        },
+        "spacing": {
+            "spacingSizes": [
+                { "slug": "s", "name": "S", "size": "0.75rem" },
+                { "slug": "m", "name": "M", "size": "1.25rem" },
+                { "slug": "l", "name": "L", "size": "2rem" }
+            ]
+        }
+    },
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--system)"
+        },
+        "color": {
+            "background": "var(--wp--preset--color--base)",
+            "text": "var(--wp--preset--color--contrast)"
+        },
+        "elements": {
+            "link": {
+                "color": { "text": "var(--wp--preset--color--accent)" }
+            },
+            "button": {
+                "color": {
+                    "background": "var(--wp--preset--color--accent)",
+                    "text": "var(--wp--preset--color--base)"
+                },
+                "border": { "radius": "999px" }
+            }
+        },
+        "blocks": {
+            "core/heading": {
+                "color": { "text": "var(--wp--preset--color--contrast)" }
+            }
+        }
+    }
+}
