@@ -1,6 +1,6 @@
 <?php
 
-$IS_LIMITED = user_can( get_current_user_id(), 'administrator' );
+$IS_LIMITED = user_can( get_current_user_id(), 'manage_sites' );
 
 //block network_admin for all user exepted ocsalis users
 add_action( 'admin_init', function() use ($IS_LIMITED) {

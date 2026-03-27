@@ -10,10 +10,10 @@
         "color": {
             "defaultPalette": false,
             "palette": [
-                { "slug": "base", "name": "Base", "color": "#ffffff" },
-                { "slug": "contrast", "name": "Contrast", "color": "#111111" },
+                { "slug": "base", "name": "Base", "color": "#5D4037" },
+                { "slug": "contrast", "name": "Contrast", "color": "white" },
                 { "slug": "accent", "name": "Accent", "color": "#f62c97" },
-                { "slug": "muted", "name": "Muted", "color": "#f4f4f4" }
+                { "slug": "muted", "name": "Muted", "color": "#8b054c" }
             ]
         },
         "typography": {
